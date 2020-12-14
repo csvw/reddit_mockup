@@ -1,0 +1,133 @@
+.header {
+    display: grid;
+    grid-template-columns: 200px 0.5fr 800px 0.4fr 400px;
+    background: var(--background-color);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 0.5px 0.5px var(--background-color);
+}
+
+:root {
+    --search-color: #f6f7f8;
+    --background-color: #ffffff;
+}
+
+.search {
+    width: 700px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    background: var(--search-color);
+}
+
+.searchContainer:hover .search {
+    background: var(--background-color);
+}
+
+.searchContainer {
+    width: 800px;
+    height: 50px;
+    border-radius: 7px;
+    border: solid #DDD 1px;
+    background: var(--search-color);
+}
+
+.searchContainer:hover {
+    border: solid #88F 1px;
+    background: white
+}
+
+.dropdownButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    color: gray;
+    background: none;
+    border: solid transparent 2px;
+}
+
+.dropdownButton:hover {
+    border: solid #DDD 2px;
+    border-radius: 5px;
+}
+
+.loginButton {
+    background: white;
+    color: #2222FF;
+    font-weight: bold;
+    border: solid  #2222FF 1px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+.loginButton:hover {
+    color: #6666FF;
+}
+
+.signupButton {
+    background:  #2222FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.signupButton:hover {
+    background: #6666ff;
+}
+
+.dropdownButton {
+    margin-left: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.userMenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdownLinks {
+    display: none;
+}
+
+.searchIcon {
+    color: gray;
+    margin-left: 25px;
+    font-size: 1.5rem;
+}
+
+.logo {
+    font-size: 1.7rem;
+    background: #ff4400;
+    color: white;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.logoContainer p {
+    font-size: 1.4rem;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
